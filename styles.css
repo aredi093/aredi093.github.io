@@ -1,15 +1,11 @@
 body {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     content: "";
     clear: both;
     display: table;
-    width: 500px;
-    border: 2px solid rgb(159, 142, 221);
     background-color: rgb(20, 20, 20);
-    box-shadow: 0px 0px 5px rgb(255, 255, 255);
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -45,5 +41,12 @@ hr {
     padding: 0px;
     margin: 0px;    
 }
+.mainstuff {
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 500px;
+    border: 2px solid rgb(159, 142, 221);
+}
 
-a:visited, a:active {color: white;}a:hover {color: gainsboro;}
+/* now of course you're probably never gonna touch the code below, so you're past self bundled it into 1 line, yw :3 */
+#contacttext {display: inline;}#disico {align-items:center;margin-top: 8px;margin-right: 5px;}a:visited, a:active {color: white;}a:hover {color: gainsboro;}
